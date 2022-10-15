@@ -1,0 +1,16 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "moc/tororo.moc",
+  "textures": [
+      "moc/texture_00.png"
+  ],
+  "pose": "tororo.pose.json",
+  "name": "tororo",
+  "motions": {
+      "idle": [
+          {
+              "file": "mtn/00_idle.mtn"
+          }
+      ]
+  }
+}

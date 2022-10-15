@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cat</title>
+  <script src="/static/js/L2Dwidget.min.js.map"></script>
+</head>
+<body>
+  <script>
+    L2Dwidget.init({
+      pluginRootPath: "static/",
+      pluginJsPath: "lib/",
+      pluginModelPath: "assets/",
+      model: {
+        scale: 1.5,
+        hHeadPos: 0.5,
+        vHeadPos: 0.618,
+        jsonPath: "/static/assets/tororo.model.json",
+      },
+      display: {
+        superSample: 2,
+        width: 400,
+        height: 550,
+        position: "right",
+        hOffset: 50,
+        vOffset: 0,
+      },
+      mobile: { show: !1, scale: 0.5 },
+      react: { opacityDefault: 1, opacityOnHover: 1 },
+      log: !1,
+      tagMode: !1,
+    });
+  </script>
+</body>
+</html>
